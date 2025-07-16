@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+
+# Log and database files
+logs/traffic.db
+logs/traffic_analysis.json
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment files
+.env
