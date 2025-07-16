@@ -3,7 +3,7 @@
 **SentinelX** is a network traffic monitoring and anomaly detection tool designed for 2035–2045 cybersecurity challenges. It uses `IsolationForest` and optional PyTorch LSTM models to detect anomalies, with a terminal dashboard and Tkinter GUI for visualization. Features include target IP/URL filtering, SQLite storage, and automatic IP blocking.
 
 ## Features
-- Prompts for target IP or web address (e.g., `192.168.1.1` or `nama.gov.ng`) to filter traffic.
+- Prompts for target IP or web address (e.g., `192.168.1.1` or `https://google.com`) to filter traffic.
 - Loads traffic from `logs/traffic_analysis.json` or captures live traffic (60 seconds).
 - Displays target IP in terminal header.
 - Bold ASCII art header (terminal) or Tkinter GUI with packet size chart.
